@@ -1,0 +1,143 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/wallpaper3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    /* This will set relative to the parent div in the body. */
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    background-color: black;
+    filter: invert(100%);
+    width: 131px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 19px;
+    font-size: 26px;
+}
+
+.center {
+    /* border: 2px solid yellow; */
+    display: block;
+    width: 40%;
+    /* condition for using the margin auto and for centering block element in the CSS. */
+    margin: 20px auto;
+    top: 20px;
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    /* This will set relative to the parent div in the body. */
+    right: 30px;
+    /* border: 2px solid green; */
+    top: 20px;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+
+
+
+/* For the call us and the Email Us Button which is written in the right hand side of the website. */
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    /* For chainging the cursor into Pointer the CSS Used is :- */
+    cursor: pointer;
+}
+
+.btn:hover {
+
+    background-color: rgb(66, 56, 56);
+}
+
+.container {
+    border: 2px solid white;
+    background-color: rgba(85, 85, 85,0.3);
+    margin: 110px 568px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+
+
+/* doing the editing for the form class in the GYM Website */
+.form-group input {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid white;
+    margin: 12px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: transparent;
+
+}
+
+.form-group input::placeholder{
+    color:white;
+}
+
+.form-group input[type=text]{
+    color:white;
+}
+
+.container button {
+    display: block;
+    width: 23%;
+    margin: 20px auto;
+    margin-top: 60px;
+}
